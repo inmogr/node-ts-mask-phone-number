@@ -1,4 +1,4 @@
-const { maskPhoneNumber } = require("./dist");
+const { formatPhoneNumberE164 } = require("./dist");
 
 // FAKE NUMBERS GENERATED ONLINE
 [
@@ -87,6 +87,6 @@ const { maskPhoneNumber } = require("./dist");
         mobile: "1 (892) 540-3433",
     },
 ].map(({ mobile }) => {
-    console.log(maskPhoneNumber(`+${mobile}`));
-    console.log(maskPhoneNumber(`00${mobile}`));
+    console.log(formatPhoneNumberE164(`+${mobile}`));
+    console.log(formatPhoneNumberE164(`00${mobile}`));
 });
