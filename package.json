@@ -49,11 +49,8 @@
     },
     "author": "inmogr@msn.com",
     "license": "MIT",
-    "dependencies": {
-        "google-libphonenumber": "^3.2.16"
-    },
+    "dependencies": {},
     "devDependencies": {
-        "@types/google-libphonenumber": "^7.4.19",
         "tslib": "^2.1.0",
         "typescript": "^4.1.5"
     }
