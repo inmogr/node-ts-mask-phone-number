@@ -1,5 +1,5 @@
 {
-    "name": "format-phone-number",
+    "name": "format-phone-number-util",
     "version": "1.0.0",
     "prepublish": "npm run build",
     "description": "this is a utility package to help formatting the phone number for security purposes",
