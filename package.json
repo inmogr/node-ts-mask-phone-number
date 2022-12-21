@@ -1,6 +1,6 @@
 {
     "name": "extract-country-code-from-phone-number",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "prepublish": "npm run build",
     "description": "this is a utility package to help formatting the phone number for security purposes",
     "main": "dist/index.js",
