@@ -1,4 +1,4 @@
-const { formatPhoneNumberE164 } = require("./dist");
+const { extractCountryCodeFromPhoneNumber } = require("./dist");
 
 // FAKE NUMBERS GENERATED ONLINE
 [
@@ -87,6 +87,6 @@ const { formatPhoneNumberE164 } = require("./dist");
         mobile: "1 (892) 540-3433",
     },
 ].map(({ mobile }) => {
-    console.log(formatPhoneNumberE164(`+${mobile}`));
-    console.log(formatPhoneNumberE164(`00${mobile}`));
+    console.log(extractCountryCodeFromPhoneNumber(`+${mobile}`));
+    console.log(extractCountryCodeFromPhoneNumber(`00${mobile}`));
 });
